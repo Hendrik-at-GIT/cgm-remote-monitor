@@ -1,9 +1,3 @@
-var wwwhisper = require('connect-wwwhisper');
-// app holds a reference to express or connect framework, it
-// may be named differently in your source file.
-app.use(wwwhisper());
-
-
 const path = require('path');
 const webpack = require('webpack');
 const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
